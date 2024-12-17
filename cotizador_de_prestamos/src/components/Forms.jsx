@@ -63,7 +63,7 @@ const Formulario = () => {
                 value={cantidad}
               />
             </div>
-            <div >
+            <div>
               <label>Tiempo para pagar</label>
               <select
                 onChange={(e) => SetTiempo(e.target.value)}

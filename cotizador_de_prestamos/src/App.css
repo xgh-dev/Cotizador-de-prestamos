@@ -55,21 +55,20 @@ body {
     padding: 3%;
   }
   
-
 form .column {
     display: flex;
     gap: 30px;
   }
-  .column div {
+.column div {
     width: 50%;
   }
-  .column div label{
+.column div label{
     display: block;
     width: 100%;
     margin-bottom: 6px;
     color: #605e5e;
   }
-  .column div select{
+.column div select{
     display: block;
     width: 100%;
     font-size: inherit;
@@ -79,7 +78,7 @@ form .column {
     border-radius: 6px;
     color: gray;
   }
-  .column div input{
+.column div input{
     display: block;
     width: 100%;
     font-size: inherit;
@@ -89,8 +88,7 @@ form .column {
     border-radius: 6px;
     color: gray;
   }
-  
-  .btnSubmit input[type="submit"]{
+.btnSubmit input[type="submit"]{
     display: block;
     width: 100%;
     font-size: inherit;
@@ -103,7 +101,7 @@ form .column {
     color: #5e5e5e;
     transition: cubic-bezier(0.39, 0.575, 0.565, 1);
   }
-  .btnSubmit input[type="submit"]:hover{
+.btnSubmit input[type="submit"]:hover{
     background-color: #ff9800;
     color: #fff;
   }
